@@ -514,6 +514,10 @@ a {
   border: 1px solid #DEDEDE;
   box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
   border-radius: 10px;
+  transition: 0.4s;
+}
+#pricing .pricing-general__flex__block:hover {
+  transform: scale(1.1);
 }
 #pricing .pricing-general__flex__block h2 {
   font-family: "Roboto", sans-serif;
@@ -587,6 +591,10 @@ a {
   border: 1px solid #DEDEDE;
   box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
   border-radius: 10px;
+  transition: 0.4s;
+}
+#pricing .pricing-general__flex__red:hover {
+  transform: scale(1.2);
 }
 #pricing .pricing-general__flex__red h2 {
   font-family: "Roboto", sans-serif;
@@ -688,6 +696,10 @@ a {
   border: 0.65371px solid #DDDDDD;
   box-shadow: 0 8.49823px 12.4205px rgba(0, 0, 0, 0.07);
   border-radius: 13.0742px;
+  transition: 0.4s;
+}
+#contact .contact-general__flex__block:hover {
+  transform: scale(1.1);
 }
 #contact .contact-general__flex__block h1 {
   font-family: "Roboto", sans-serif;
