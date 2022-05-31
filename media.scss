@@ -1,0 +1,394 @@
+@media(max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media(max-width: 1024px) {
+  //.container{
+  //  width: 90%;
+  //}
+  .hero-general__gen input {
+    width: 200px;
+    height: 38px;
+  }
+  .hero-general__gen button {
+    width: 111px;
+    height: 40px;
+  }
+  #header .header-general__flex div h1 {
+    font-size: 45px;
+  }
+  #macbook .macbook-general button {
+    margin-left: 340px;
+  }
+  #macbook .macbook-general img {
+
+  }
+  #partners .partners-general button {
+    margin-left: 344px;
+
+
+  }
+  #dropbox .dropbox-general__gen__img {
+    margin-left: 345px;
+  }
+  #dropbox .dropbox-general__gen button {
+    margin-left: 330px;
+
+  }
+
+
+}
+
+@media(max-width: 992px) {
+  .container{
+    width: 90%;
+  }
+}
+
+@media(max-width: 768px) {
+  .container{
+    width: 90%;
+  }
+  #hero {
+    .hero-general {
+      &__gen {
+        display: none;
+      }
+      &__burger {
+        display: flex;
+      }
+    }
+  }
+  #header .header-general__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  #header .header-general__flex div button {
+    margin-left: 120px;
+  }
+  #macbook .macbook-general img {
+
+    width: 700px;
+    height: 400px;
+    margin-left:-30px;
+  }
+  #macbook .macbook-general button {
+    margin-left:230px;
+  }
+  #partners .partners-general button {
+    margin-left: 200px;
+  }
+  #dropbox .dropbox-general__gen__img {
+    margin-left: 205px;
+  }
+  #dropbox .dropbox-general__gen button {
+    margin-left: 200px;
+  }
+  #contact .contact-general__flex__block {
+    width: 350.72px;
+    height: 400.38px;
+  }
+  #contact .contact-general__flex__block__inp {
+    width: 218.72px;
+  }
+  #contact .contact-general__flex__block__inp2 {
+    width: 218.72px;
+  }
+  #contact .contact-general__flex__ico h5 {
+    width: 300px;
+
+  }
+  #footer .footer-general__flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  #pricing .pricing-general__flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 576px) {
+  #header .header-general__flex img {
+    width: 450px;
+  }
+  #header .header-general__flex div h1 {
+    width: 250px;
+    text-align: center;
+    padding-left: 100px;
+  }
+  #header .header-general__flex div p {
+    padding-left: 100px;
+    margin-bottom: 25px;
+  }
+  #macbook .macbook-general button {
+    margin-left: 130px;
+  }
+  #macbook .macbook-general img {
+    width: 500px;
+    height: 200px;
+    margin-left: 10px;
+  }
+  #partners .partners-general__flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  #partners .partners-general__flex2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  #partners .partners-general button {
+    margin-left: 120px;
+  }
+  #dropbox .dropbox-general__gen__img {
+    margin-left: 125px;
+  }
+  #dropbox .dropbox-general__gen button {
+    margin-left: 100px;
+  }
+  #contact .contact-general__tit {
+    margin-right: 100px;
+  }
+  #contact .contact-general__deck {
+    margin-right: 100px;
+  }
+  #contact .contact-general__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-right: 150px;
+  }
+  #contact .contact-general__flex__block {
+    margin-bottom: 30px;
+  }
+  #contact .contact-general__flex__ico div span {
+    padding-left: 45px;
+    font-size: 30px;
+  }
+  #features .features-general__flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  #features .features-general__flex div p {
+    margin-bottom: 40px;
+  }
+
+
+
+}
+
+@media(max-width: 414px) {
+  #header .header-general__flex img {
+    width: 320px;
+    margin-left: 50px;
+  }
+  #header .header-general__flex div h1 {
+    width: 250px;
+    text-align: center;
+    padding-left: 60px;
+  }
+  #header .header-general__flex div h1 {
+    font-size: 25px;
+  }
+  #header .header-general__flex div p {
+    font-size: 10px;
+    padding-left: 50px;
+
+  }
+  #header .header-general__flex div button {
+    margin-left: 70px;
+    width: 200px;
+    height: 50px;
+  }
+  #features .features-general__deck h5 {
+    font-size: 15px;
+  }
+  #features .features-general h1 {
+    font-size: 30px;
+
+  }
+  #features .features-general__deck p {
+    font-size: 10px;
+  }
+  #features .features-general__flex h1 {
+    font-size: 25px;
+
+
+  }
+  #macbook .macbook-general img {
+    width: 250px;
+    height: 150px;
+    margin-left: 60px;
+  }
+  #macbook .macbook-general button {
+    margin-left: 100px;
+    width: 150px;
+    margin-bottom: 30px;
+    height: 45px;
+  }
+  #macbook .macbook-general h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  #macbook .macbook-general p {
+    font-size: 12px;
+    margin-bottom: 50px;
+  }
+  #prototyp .prototyp-general h4 {
+    font-size: 18px;
+  }
+  #prototyp .prototyp-general h1 {
+    font-size: 26px;
+  }
+  #prototyp .prototyp-general h5 {
+    font-size: 16px;
+  }
+  #prototyp .prototyp-general p {
+    font-size: 12px;
+  }
+  #prototyp .prototyp-general input {
+    width: 250px;
+    height: 44px;
+  }
+  #prototyp .prototyp-general button {
+    width: 250px;
+    height: 40px;
+  }
+  #partners .partners-general__tit {
+    font-size: 35px;
+  }
+  #partners .partners-general__deck {
+    font-size: 11px;
+  }
+  #partners .partners-general button {
+    margin-left: 70px;
+    width: 200px;
+    height: 55px;
+  }
+  #dropbox .dropbox-general__gen h1 {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  #dropbox .dropbox-general__gen__img {
+    margin-left: 60px;
+  }
+  #dropbox .dropbox-general__gen button {
+    margin-left: 70px;
+    width: 200px;
+    height: 55px;
+
+  }
+  #pricing .pricing-general__tit {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  #pricing .pricing-general__deck {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  #pricing .pricing-general__flex__block {
+    width: 200px;
+    height: 200px;
+  }
+  #pricing .pricing-general__flex__red {
+    padding: 40px;
+    width: 200px;
+  }
+  #pricing .pricing-general__flex__block button {
+    width: 180px;
+    height: 40px;
+    margin-top: -40px;
+
+  }
+  #pricing .pricing-general__flex__red button {
+    margin-left: 1px;
+  }
+  #contact .contact-general__tit {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #contact .contact-general__deck {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  #contact .contact-general__flex__block {
+    width: 290.72px;
+    height: 400.38px;
+  }
+
+
+
+}
+
+@media(max-width: 375px) {
+}
+
+@media(max-width: 320px) {
+  #header .header-general__flex div p {
+    font-size: 8px;
+  }
+  #header .header-general__flex div h1 {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  #header .header-general__flex div button {
+    margin-left: 40px;
+  }
+  #macbook .macbook-general button {
+    margin-left: 60px;
+  }
+  #macbook .macbook-general img {
+    margin-left: 20px;
+  }
+  #partners .partners-general button {
+    margin-left: 50px;
+  }
+  #dropbox .dropbox-general__gen__img {
+    margin-left: 30px;
+  }
+  #dropbox .dropbox-general__gen button {
+    margin-left: 50px;
+  }
+  #contact .contact-general__tit {
+    font-size: 22px;
+    margin-left: -100px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  #contact .contact-general__deck {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: -100px;
+  }
+  #contact .contact-general__flex__block {
+    width: 240.72px;
+    height: 400.38px;
+  }
+  #contact .contact-general__flex__block__inp {
+    width: 180px;
+  }
+  #contact .contact-general__flex__block__inp2 {
+    width: 180px;
+  }
+  #footer .footer-general__flex__ico h5 {
+    margin-top: 30px;
+  }
+}
