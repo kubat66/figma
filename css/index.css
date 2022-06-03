@@ -34,13 +34,12 @@ a {
     color: red;
   }
 }
-
-.hero-general {
+#hero .hero-general {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.hero-general__gen a {
+#hero .hero-general__gen a {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -48,7 +47,7 @@ a {
   color: #FFFFFF;
   padding-left: 15px;
 }
-.hero-general__gen input {
+#hero .hero-general__gen input {
   width: 263px;
   height: 50px;
   background: #EFEFEF;
@@ -56,8 +55,9 @@ a {
   border-radius: 39px;
   padding-left: 16px;
   margin-left: 15px;
+  outline: none;
 }
-.hero-general__gen button {
+#hero .hero-general__gen button {
   width: 131px;
   height: 50px;
   background: #FFFFFF;
@@ -69,22 +69,22 @@ a {
   color: #EF2779;
   transition: 0.4s;
 }
-.hero-general__gen button:hover {
+#hero .hero-general__gen button:hover {
   transform: scale(1.1);
 }
-.hero-general__burger {
+#hero .hero-general__burger {
   display: none;
   width: 40px;
   height: 40px;
   position: relative;
 }
-.hero-general__burger--line {
+#hero .hero-general__burger--line {
   position: absolute;
   width: 40px;
   height: 2px;
   background: #FFFFFF;
 }
-.hero-general__burger--line:before {
+#hero .hero-general__burger--line:before {
   content: "";
   position: absolute;
   width: 40px;
@@ -92,7 +92,7 @@ a {
   background: #FFFFFF;
   top: 15px;
 }
-.hero-general__burger--line:after {
+#hero .hero-general__burger--line:after {
   content: "";
   position: absolute;
   width: 40px;
@@ -103,7 +103,7 @@ a {
 
 #header {
   background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
-  padding-top: 50px;
+  padding: 100px;
 }
 #header .header-general__flex {
   display: flex;
@@ -286,7 +286,7 @@ a {
   font-size: 22px;
   line-height: 33px;
   text-align: center;
-  color: #FFFFFF;
+  color: #525253;
   margin-bottom: 10px;
 }
 #prototyp .prototyp-general h1 {
@@ -764,6 +764,10 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+#footer .footer-general__flex__card {
+  width: 100px;
+  height: 100px;
 }
 #footer .footer-general__flex__tit h3 {
   font-family: "Roboto", sans-serif;

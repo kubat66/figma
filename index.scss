@@ -27,7 +27,7 @@
 
   }
 
-}
+
 
 
 
@@ -58,6 +58,7 @@
       border-radius: 39px;
       padding-left: 16px;
       margin-left: 15px;
+      outline: none  ;
     }
 
     button {
@@ -108,14 +109,15 @@
     }
   }
 }
-
+}
 
 
 #header {
   background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
   //background: url("../img/12.png") no-repeat center/cover;
 
-  padding-top: 50px;
+  padding: 100px;
+
 
 
   .header-general {
@@ -340,7 +342,7 @@
       font-size: 22px;
       line-height: 33px;
       text-align: center;
-      color: #FFFFFF;
+      color: #525253;
       margin-bottom: 10px;
     }
 
@@ -927,6 +929,11 @@
     padding: 90px 0;
 
     &__flex {
+      &__card{
+
+        width: 100px;
+        height: 100px;
+      }
 
       display: flex;
       justify-content: space-around;

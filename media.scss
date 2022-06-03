@@ -4,20 +4,26 @@
   }
 }
 
-@media(max-width: 1024px) {
-  //.container{
-  //  width: 90%;
-  //}
-  .hero-general__gen input {
+@media(max-width: 1024px)   {
+  .container{
+    width: 90%;
+  }
+  #header .header-general__flex {
+    margin-left: -100px;
+  }
+  #macbook .macbook-general img {
+    margin-left: 70px;
+  }
+  #hero .hero-general__gen input {
     width: 200px;
-    height: 38px;
+    height: 50px;
   }
   .hero-general__gen button {
     width: 111px;
     height: 40px;
   }
   #header .header-general__flex div h1 {
-    font-size: 45px;
+    font-size: 40px;
   }
   #macbook .macbook-general button {
     margin-left: 340px;
@@ -193,6 +199,7 @@
 }
 
 @media(max-width: 414px) {
+
   #header .header-general__flex img {
     width: 320px;
     margin-left: 50px;
@@ -338,6 +345,9 @@
 }
 
 @media(max-width: 375px) {
+  .container{
+    width: 90%;
+  }
 }
 
 @media(max-width: 320px) {

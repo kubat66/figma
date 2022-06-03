@@ -4,9 +4,21 @@
   }
 }
 @media (max-width: 1024px) {
-  .hero-general__gen input {
+  .container {
+    width: 90%;
+  }
+
+  #header .header-general__flex {
+    margin-left: -100px;
+  }
+
+  #macbook .macbook-general img {
+    margin-left: 70px;
+  }
+
+  #hero .hero-general__gen input {
     width: 200px;
-    height: 38px;
+    height: 50px;
   }
 
   .hero-general__gen button {
@@ -15,7 +27,7 @@
   }
 
   #header .header-general__flex div h1 {
-    font-size: 45px;
+    font-size: 40px;
   }
 
   #macbook .macbook-general button {
@@ -369,6 +381,11 @@
   #contact .contact-general__flex__block {
     width: 290.72px;
     height: 400.38px;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    width: 90%;
   }
 }
 @media (max-width: 320px) {
